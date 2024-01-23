@@ -7,7 +7,7 @@ draft = false
 
 ![fix image vertical alignment](/images/fix-image-vertical-alignment-and-add-space-before-it.jpg)
 
-It took me some time to know that github overwrite image style attribute value, this value `style="margin-left:15px; vertical-align: middle"` was overwritted by this `style="max-width:100%". See below code snippets:
+It took me some time to know that github overwrite image style attribute value, this value `style="margin-left:15px; vertical-align: middle"` was overwritten by this `style="max-width:100%". See below code snippets:
 `
 
 ```html
