@@ -5,4 +5,4 @@
 I have experinces on coding using reactjs, react-native, go, php laravel, and also graphql, restful API & rpc (grpc & kitex) paradigms.
 
 Made with &#10084;&#65039; using
-wonderful <img src="https://github.com/cipto-hd/github-assets/raw/main/assets/hugo.svg" height="20px" style="margin-left: 5px; vertical-align: middle" alt="hugo logo" />
+wonderful <a target="_blank" href="http://gohugo.io/"><img src="https://github.com/cipto-hd/github-assets/raw/main/assets/hugo.svg" height="20px" style="margin-left: 5px; vertical-align: middle" alt="hugo logo"></a>
