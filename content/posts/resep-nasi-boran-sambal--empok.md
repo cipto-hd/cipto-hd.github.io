@@ -14,4 +14,4 @@ Bismillahirrahmanirrahim
 
 Baiklah, kali ini saya akan berbagi resep menu utama dari Nasi Boran khas Lamongan. Untuk mencapai hasil yang memuaskan mungkin membutuhkan percobaan berkali-kali. Selamat berkreasi "doeloer- doeloer" semua!! ^\_^
 
-Silahkan download di [sini](http://adf.ly/1IOIo1). Oia, jangan lupa untuk sering mengaduk sambal sampai benar2 mendidih.
+Silahkan download di [sini](https://drive.google.com/file/d/0BwwMwCuweRO_d2xRMTYxYVFLSkU/view?resourcekey=0-j9F9mWXffrITr3lwYUNeqQ). Oia, jangan lupa untuk sering mengaduk sambal sampai benar2 mendidih.
