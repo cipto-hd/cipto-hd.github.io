@@ -22,7 +22,7 @@ Run this command at terminal to list the available containers:
 docker ps -a
 ```
 
-, and press ENTER
+, and press ENTER.
 
 ![container list](/images/container-list.png)
 
@@ -34,7 +34,7 @@ To check the default hostname of `alpine` container, just run this command at te
 docker exec alpine sh -c 'hostname'
 ```
 
-, and press ENTER
+, and press ENTER.
 ![old hostname of alpine container](/images/old-hostname-of-alpine-container.png)
 
 AS you can see above, the hostname of alpine container is the first 12 characters of its container full id (`5fcce8e72c1f`).
@@ -45,7 +45,7 @@ For running subsequent commands which need `root` access, it would be helpful if
 sudo su
 ```
 
-, and press ENTER (current user must belongs to sudoers)
+, and press ENTER (current user must belongs to sudoers).
 
 Next, we check the status of docker service by running this command at terminal:
 
@@ -53,18 +53,18 @@ Next, we check the status of docker service by running this command at terminal:
 systemctl status docker
 ```
 
-, and press ENTER
+, and press ENTER.
 ![docker service status is running](/images/docker-service-status-is-running.png)
 
 If docker service is running, then we must stop it.
-As you can see in this example, docker service is triggeredBy `docker.socket`,
-Therefore, we just need stop `docker.socket` by running this command at terminal:
+As you can see in this example, docker service is triggered by `docker.socket`,
+Therefore, we just need to stop `docker.socket` by running this command at terminal:
 
 ```bash
 systemctl stop docker.socket
 ```
 
-, and press ENTER
+, and press ENTER. Please wait for about a minute to let the process finished.
 
 After that, we recheck the status of docker service by running this command at terminal:
 
@@ -72,7 +72,7 @@ After that, we recheck the status of docker service by running this command at t
 systemctl status docker
 ```
 
-, and press ENTER. Please wait for about a minute to let the process finished.
+, and press ENTER.
 ![docker service status is inactive](/images/docker-service-status-is-inactive.png)
 
 See, docker service is now inactive aka dead.
@@ -93,14 +93,14 @@ Next, we will change the hostname by running this command at terminal:
 nano config.v2.json
 ```
 
-, and press ENTER
+, and press ENTER.
 
 Next, search for the default hostname (first-12-characters-of-container-full-id), by pressing
 `Ctrl + W`, then type `"5fcce8e72c1f"`, and press ENTER.
 
 That's it, we already found the old hostname. Then we just need to change the default container hostname to the new hostname. In this example, I change it into `alpine`.
 
-Then, search again for the default hostname, by pressing `Ctrl + W`, and pres ENTER (we don't need to type the search term, because we search the same term). If an instance of the old hostname is found, just rename it to the new hostname.
+Then, search again for the default hostname, by pressing `Ctrl + W`, and pres ENTER (we don't need to type the search term again, because we search the same term). If an instance of the old hostname is found, just rename it to the new hostname.
 
 Repeat the above step until an instance of the old hostname is not found.
 ![the-old-hostname-has-been-replaced-with-the-new-one](/images/the-old-hostname-has-been-replaced-with-the-new-one.png)
@@ -110,20 +110,20 @@ Then, save the update by pressing `Ctrl + S`, next, exit from nano by pressing `
 After that we must start docker service to enable us to see the result of hostname update, by running this command at terminal:
 `systemctl start docker.service`, and press ENTER. Please wait for about a minute.
 
-Next, we exit from root access by typing: `exit`, and press ENTER
+Next, we exit from root access by typing: `exit`, and press ENTER.
 
 Next, we start the container, in this example, it's `alpine` container, by running this command at terminal:
-`docker start alpine`, and press ENTER
+`docker start alpine`, and press ENTER.
 
 Next, we need to recheck the hostname of `alpine` container, by running this command at terminal:
-`docker exec alpine sh -c 'hostname'`, and press ENTER
+`docker exec alpine sh -c 'hostname'`, and press ENTER.
 
 ![the-new-hostname-of-alpine-container](/images/the-new-hostname-of-alpine-container.png)
 
-See, the new hostname has been applied. Congratulations.
+See, the new hostname has been applied. Congratulations!
 
 OK,
 
 I think that's all for now. Hopefully this tutorial will be helpful for others.
 
-Thanks a lot for watching. Have a great day. See you
+Thanks a lot for watching. Have a great day. See you.
