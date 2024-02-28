@@ -3,7 +3,7 @@ title: "Books"
 type: page
 ---
 
-### Hello, here are my books (just dummy list, will be updated):
+### Hello, here are my books (some are just dummy list items, will be updated. Some are WIP):
 
 1. [Go: The Essential Guide for Beginner](/go-the-essential-guide-for-beginner/)
 2. [ReactJs: The Essential Guide for Beginner](/projects/hydra/)
