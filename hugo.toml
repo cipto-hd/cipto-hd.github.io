@@ -117,3 +117,7 @@ params = { NewPage = true }
 startLevel = 1
 endLevel = 4
 ordered = false
+
+[services]
+[services.disqus]
+shortname = 'cipto-hd'
