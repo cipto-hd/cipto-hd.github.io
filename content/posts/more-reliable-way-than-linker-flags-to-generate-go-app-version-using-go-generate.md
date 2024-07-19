@@ -7,6 +7,8 @@ tags: ["english", "go", "golang", "version", "go_generate", "linker_flags"]
 type: post
 ---
 
+_I am so sorry, this post article is not completed yet. I forgot to finalize it even though I already have had sample code_.
+
 Hello every body, welcome to my blog!
 
 This time I will share with you, how to generate go app version using `go:generate`.
