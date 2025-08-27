@@ -79,11 +79,11 @@ pre = "<span data-feather='code'></span>"
 url = "/projects/"
 weight = 3
 
-[[menu.main]]
-name = "Books"
-pre = "<span data-feather='book-open'></span>"
-url = "/books/"
-weight = 4
+# [[menu.main]]
+# name = "Books"
+# pre = "<span data-feather='book-open'></span>"
+# url = "/books/"
+# weight = 4
 
 [[menu.main]]
 name = "Tags"
