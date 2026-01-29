@@ -1,10 +1,12 @@
 <header class="header">
   <nav class="header-nav">
-    {{ if isset .Site.Params "avatarurl" }}
+    {{ if isset .Site.Params "avatarurl1" }}
     <div class="avatar">
       <a href="{{ .Site.BaseURL }}">
-        <img src='{{ .Scratch.Get "avatarImgSrc" }}' alt="{{
-        .Site.Params.AvatarAltText|default "avatar" }}" />
+        <img
+          src="{{ .Site.Params.avatarURL1 }}"
+          alt='{{ .Site.Title|default "avatar" }}'
+        />
       </a>
     </div>
     {{ end }}
